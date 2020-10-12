@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+.placeholdify {
+  filter: url(#distorsion);
+}
+
 .placeholdify,
 .placeholdify * {
   font-family: "Placeholdifier" !important;
