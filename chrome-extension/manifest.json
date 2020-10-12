@@ -1,18 +1,23 @@
 {
   "name": "Placeholdifier",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Turn any website into a live wireframe",
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "./assets/off/icon16.png",
+    "16": "./assets/on/icon16.png",
+    "48": "./assets/off/icon48.png",
+    "48": "./assets/on/icon48.png",
+    "128": "./assets/off/icon128.png",
+    "128": "./assets/on/icon128.png"
   },
   "permissions": ["tabs", "storage", "http://*/", "https://*/"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "browser_action": {},
+  "browser_action": {
+    "default_icon": "./assets/off/icon128.png"
+  },
   "web_accessible_resources": ["lib/placeholdifier.css", "lib/*"],
   "manifest_version": 2
 }
