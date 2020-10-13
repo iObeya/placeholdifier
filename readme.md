@@ -24,8 +24,8 @@ When you are on a website page:
 2. Magic!
 
 ## What has exactly changed from the original?
-- Images and videos are not striked out anymore.
-- An artistic filter is applied to the targeted website page.
+- Images and videos are not striked out anymore
+- An artistic filter is applied to the targeted website page
 - On/off system more accurate
 
 ## Author
